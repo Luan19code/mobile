@@ -48,7 +48,11 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState() {
     super.initState();
     //
-   
+    Timer.periodic(Duration(seconds: 5), (timer) {
+      setState(() {
+        heightTeme = 0;
+      });
+    });
     //
     _readData().then((data) {
       setState(() {
@@ -228,10 +232,12 @@ class _MyHomePageState extends State<MyHomePage> {
                                 TextButton(
                                   child: Text("Salvar"),
                                   onPressed: () {
-                                    _toDoList[index]["title"] =
-                                        _toEditController.text;
                                     Navigator.of(context).pop();
-                                    _saveData();
+                                    setState(() {
+                                      _toDoList[index]["title"] =
+                                          _toEditController.text;
+                                      _saveData();
+                                    });
                                   },
                                 ),
                               ],

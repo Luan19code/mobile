@@ -1,16 +1,73 @@
-# mobile
+<h2 align="center"> 
+	🚧  Desafio Genpag - Completo 🚀 🚧
+</h2>
 
-A new Flutter project.
+<p align="center">
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-layout">Layout</a> • 
+ <a href="#-como-executar-o-projeto">Como executar</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+</p>
 
-## Getting Started
+## 💻 Sobre o projeto
 
-This project is a starting point for a Flutter application.
+Desafio Genpag
 
-A few resources to get you started if this is your first Flutter project:
+DESAFIO:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Descrição:
+    Criar uma funcionalidade de TO-DO list usando armazenamento local. Não é
+necessário autenticação e proteção por usuário, será apenas um teste.
+Funcionalidades desejadas:
+- Adicionar uma tarefa inserindo uma descrição;
+- Marcar ou desmarcar uma tarefa como concluída;
+- Editar a descrição de uma tarefa;
+- Excluir uma tarefa;
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Projeto desenvolvido no processo seletivo da Genpag.
+
+Projeto desenvolvido com Flutter/Dart na sua versão Mobile Android.
+
+---
+## ⚙️ Funcionalidades
+
+- [✔] O usuário pode adicionar uma tarefa inserindo uma descrição
+- [✔] O usuário pode marcar ou desmarcar uma tarefa como concluída
+- [✔] O usuário pode editar a descrição de uma tarefa
+- [✔] O usuário pode excluir uma tarefa
+
+---
+## 🎨 Layout
+
+### Mobile
+<table>
+
+  <tr>
+    <td><img src="git\genpag_one.gif" width=200 height=400></td>
+    <td><img src="git\genpag_two.gif" width=200 height=400></td>
+    <td><img src="git\genpag_three.gif" width=200 height=400></td>
+  </tr>
+  
+ </table>
+
+
+## 🚀 Como executar o projeto
+
+Ao clonar o projeto, abra sua IDE favorita selecione o pasta, rode o comando( flutter pub get ) no terminal onde esta o projeto se encontra para instalar as dependências.
+Verifique se suas versões flutter e dart estão atualizadas.
+(Por favor verificar se sua maquina o flutter e dart instalados)
+
+-  **[Dartpad](https://dartpad.dev/?null_safety=true)**
+
+---
+
+## 🛠 Tecnologias
+As seguintes ferramentas foram usadas na construção do projeto:
+
+-  **[Flutter](https://flutter.dev)**
+-  **[Dart](https://dart.dev)**
+-  **[Path_provider](https://pub.dev/packages/path_provider)**
+  
+
+
